@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sample/core/constant/Pov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/core/state/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/core/state/Bounds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/core/state/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/core/state/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/core/util/FuncUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/menu/MenuDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/pong/PongDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/tetris/TetrisActionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/tetris/TetrisDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/tetris/TetrisState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/tetris/actions/Flags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/tetris/actions/Progress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/game/tetris/actions/Toggle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/TetrisDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Move$Pov.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Progress$GameOver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Progress.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Rotate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Toggle$GameRules.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MocktresDX/sample/driver/events/Toggle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/core/Controls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/core/util/KeyboardUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/core/Side.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/core/TimerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/core/util/TimerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/core/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/core/base/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/driver/TetrisDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/driver/events/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/driver/events/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/game/tetris/actions/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/driver/events/Progress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/driver/events/Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/game/tetris/actions/Rotate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/driver/events/Toggle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/entity/Block.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/entity/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/game/tetris/entity/Piece.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +105,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1Yv5mioaLdrqSESWNsv0YUreNXU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -94,10 +139,21 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="sample.core.Util" />
+      <recent name="Util" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sample.driver.state" />
+    </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
-      <recent name="sample.driver.events" />
+      <recent name="sample.game.menu" />
+      <recent name="sample.game.pong" />
+      <recent name="sample.core" />
+      <recent name="sample.driver.state" />
       <recent name="sample.driver" />
     </key>
   </component>
@@ -134,7 +190,7 @@
       <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Downloads/javafx-sdk-11.0.2/lib --add-modules=javafx.base,javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.core.*" />
+          <option name="PATTERN" value="sample.core.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,6 +268,8 @@
       <workItem from="1583990795276" duration="9761000" />
       <workItem from="1585094071651" duration="8584000" />
       <workItem from="1585373626713" duration="26724000" />
+      <workItem from="1585595386465" duration="146000" />
+      <workItem from="1585597734407" duration="30233000" />
     </task>
     <servers />
   </component>
@@ -231,11 +289,11 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="419" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583811904488" />
-    <state x="598" y="316" key="#com.intellij.ide.util.MemberChooser" timestamp="1585431187452">
+    <state x="598" y="316" key="#com.intellij.ide.util.MemberChooser" timestamp="1585701669727">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="523" y="277" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1585094721353" />
-    <state x="598" y="316" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1585431187452" />
+    <state x="598" y="316" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1585701669727" />
     <state x="381" y="383" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1583811535418">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
@@ -248,69 +306,82 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="659" y="359" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585430543822" />
-    <state x="765" y="522" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585434084710">
+    <state x="765" y="522" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585701890227">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="669" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585101035078" />
-    <state x="765" y="522" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585434084710" />
-    <state x="683" y="421" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1585434085922">
+    <state x="765" y="522" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585701890227" />
+    <state x="718" y="489" width="483" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585685764078">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="718" y="489" width="483" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1200@0.0.1920.1200" timestamp="1585685764078" />
+    <state x="683" y="421" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog" timestamp="1585701901043">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="598" y="368" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585101036124" />
-    <state x="683" y="421" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585434085922" />
-    <state x="555" y="250" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1585100636273">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="683" y="421" key="#com.intellij.refactoring.move.moveInner.MoveInnerDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585701901043" />
+    <state x="634" y="286" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1585684969108">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="555" y="250" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585100636273" />
-    <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585430290571">
+    <state x="634" y="286" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585684969108" />
+    <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585603990148">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585430290571" />
-    <state x="286" y="389" key="DetectedRootsChooserDialog" timestamp="1585432009012">
+    <state x="580" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585603990148" />
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585687557848">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state x="286" y="389" key="DetectedRootsChooserDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585432009012" />
-    <state width="1878" height="414" key="GridCell.Tab.0.bottom" timestamp="1585595253072">
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585687557848" />
+    <state x="286" y="389" key="DetectedRootsChooserDialog" timestamp="1585599000106">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="286" y="389" key="DetectedRootsChooserDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585599000106" />
+    <state width="1878" height="490" key="GridCell.Tab.0.bottom" timestamp="1585707625886">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1638" height="441" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585153139955" />
-    <state width="1878" height="414" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1585595253072" />
+    <state width="1878" height="490" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1585707625886" />
     <state width="918" height="472" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583900560215" />
     <state width="918" height="492" key="GridCell.Tab.0.bottom/969.-1200.1920.1200/-951.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1584030352694" />
     <state width="1528" height="483" key="GridCell.Tab.0.bottom/990.-1200.1920.1200/-930.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583854831415" />
-    <state width="1878" height="414" key="GridCell.Tab.0.center" timestamp="1585595253071">
+    <state width="1878" height="490" key="GridCell.Tab.0.center" timestamp="1585707625885">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1638" height="441" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585153139954" />
-    <state width="1878" height="414" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1585595253071" />
+    <state width="1878" height="490" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1585707625885" />
     <state width="918" height="472" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583900560214" />
     <state width="918" height="492" key="GridCell.Tab.0.center/969.-1200.1920.1200/-951.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1584030352694" />
     <state width="1528" height="483" key="GridCell.Tab.0.center/990.-1200.1920.1200/-930.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583854831414" />
-    <state width="1878" height="414" key="GridCell.Tab.0.left" timestamp="1585595253070">
+    <state width="1878" height="490" key="GridCell.Tab.0.left" timestamp="1585707625884">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1638" height="441" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585153139951" />
-    <state width="1878" height="414" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1585595253070" />
+    <state width="1878" height="490" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1585707625884" />
     <state width="918" height="472" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583900560214" />
     <state width="918" height="492" key="GridCell.Tab.0.left/969.-1200.1920.1200/-951.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1584030352693" />
     <state width="1528" height="483" key="GridCell.Tab.0.left/990.-1200.1920.1200/-930.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583854831414" />
-    <state width="1878" height="414" key="GridCell.Tab.0.right" timestamp="1585595253071">
+    <state width="1878" height="490" key="GridCell.Tab.0.right" timestamp="1585707625885">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1638" height="441" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585153139954" />
-    <state width="1878" height="414" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1585595253071" />
+    <state width="1878" height="490" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1585707625885" />
     <state width="918" height="472" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583900560215" />
     <state width="918" height="492" key="GridCell.Tab.0.right/969.-1200.1920.1200/-951.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1584030352694" />
     <state width="1528" height="483" key="GridCell.Tab.0.right/990.-1200.1920.1200/-930.-1200.1920.1200/0.0.1920.1200@0.0.1920.1200" timestamp="1583854831415" />
+    <state x="499" y="239" key="SettingsEditor" timestamp="1585682952098">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="499" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1585682952098" />
     <state x="218" y="360" key="extract.method.dialog" timestamp="1583812818868">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="218" y="360" key="extract.method.dialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583812818868" />
-    <state x="632" y="186" key="refactoring.ChangeSignatureDialog" timestamp="1585096390238">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="1068" y="220" key="refactoring.ChangeSignatureDialog" timestamp="1585607166134">
+      <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="632" y="186" key="refactoring.ChangeSignatureDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585096390238" />
-    <state x="722" y="213" key="refactoring.ChangeSignatureDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583998039689" />
+    <state x="1068" y="220" key="refactoring.ChangeSignatureDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1585607166134" />
     <state x="577" y="266" width="670" height="676" key="search.everywhere.popup" timestamp="1585435540964">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
